@@ -6,6 +6,8 @@
 --  LICENSE file in the root directory of this source tree. An additional grant
 --  of patent rights can be found in the PATENTS file in the same directory.
 --
+-- Code modified for DenseNet (https://arxiv.org/abs/1608.06993) by Gao Huang.
+-- 
 local M = { }
 
 function M.parse(arg)
@@ -39,6 +41,7 @@ function M.parse(arg)
    cmd:option('-LR',              0.1,   'initial learning rate')
    cmd:option('-momentum',        0.9,   'momentum')
    cmd:option('-weightDecay',     1e-4,  'weight decay')
+   cmd:option('-lrShape',         'multistep',    'Learning rate: multistep|cosine')
    ---------- Model options ----------------------------------
    cmd:option('-netType',      'resnet', 'Options: resnet | preresnet')
    cmd:option('-depth',        20,       'ResNet depth: 18 | 34 | 50 | 101 | ...', 'number')

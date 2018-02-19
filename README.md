@@ -1,13 +1,17 @@
 # Densely Connected Convolutional Networks (DenseNets)
 
-This repository contains the code for DenseNet introduced in the paper ["Densely Connected Convolutional Networks"](http://arxiv.org/abs/1608.06993) (CVPR 2017, Best Paper Award) by [Gao Huang](http://www.cs.cornell.edu/~gaohuang/)\*, [Zhuang Liu](https://github.com/liuzhuang13)\*, [Laurens van der Maaten](https://lvdmaaten.github.io/) and [Kilian Weinberger](https://www.cs.cornell.edu/~kilian/) (\* Authors contributed equally).
+This repository contains the code for DenseNet introduced in the following paper 
+
+[Densely Connected Convolutional Networks](http://arxiv.org/abs/1608.06993) (CVPR 2017, Best Paper Award) 
+
+[Gao Huang](http://www.cs.cornell.edu/~gaohuang/)\*, [Zhuang Liu](https://liuzhuang13.github.io/)\*, [Laurens van der Maaten](https://lvdmaaten.github.io/) and [Kilian Weinberger](https://www.cs.cornell.edu/~kilian/) (\* Authors contributed equally).
 
 
-**Now with much more memory efficient implementation!**. Please check the [technical report](https://arxiv.org/pdf/1707.06990.pdf) and [code](https://github.com/liuzhuang13/DenseNet/tree/master/models) for more infomation.
+**Now with much more memory efficient implementation!** Please check the [technical report](https://arxiv.org/pdf/1707.06990.pdf) and [code](https://github.com/liuzhuang13/DenseNet/tree/master/models) for more infomation.
  
 The code is built on [fb.resnet.torch](https://github.com/facebook/fb.resnet.torch).
 
-### Citing DenseNet
+### Citation
 If you find DenseNet useful in your research, please consider citing:
 
 	@inproceedings{huang2017densely,
@@ -19,28 +23,33 @@ If you find DenseNet useful in your research, please consider citing:
 
 
 ## Other Implementations
-0. Our [Caffe Implementation](https://github.com/liuzhuang13/DenseNetCaffe)
-0. Our memory-efficient [Caffe Implementation](https://github.com/Tongcheng/DN_CaffeScript).
-0. Our memory-efficient [PyTorch Implementation](https://github.com/gpleiss/efficient_densenet_pytorch).
-0. [PyTorch Implementation](https://github.com/andreasveit/densenet-pytorch) by Andreas Veit.
-0. [PyTorch Implementation](https://github.com/bamos/densenet.pytorch) by Brandon Amos.
-0. [MXNet Implementation](https://github.com/Nicatio/Densenet/tree/master/mxnet) by Nicatio.
-0. [MXNet Implementation (supporting ImageNet)](https://github.com/bruinxiong/densenet.mxnet) by Xiong Lin.
-0. [Tensorflow Implementation](https://github.com/YixuanLi/densenet-tensorflow) by Yixuan Li.
-0. [Tensorflow Implementation](https://github.com/LaurentMazare/deep-models/tree/master/densenet) by Laurent Mazare.
-0. [Tensorflow Implementation (with BC structure)](https://github.com/ikhlestov/vision_networks) by Illarion Khlestov.
-0. [Lasagne Implementation](https://github.com/Lasagne/Recipes/tree/master/papers/densenet) by Jan Schlüter.
-0. [Keras Implementation](https://github.com/tdeboissiere/DeepLearningImplementations/tree/master/DenseNet) by tdeboissiere. 
-0. [Keras Implementation](https://github.com/robertomest/convnet-study) by Roberto de Moura Estevão Filho.
-0. [Keras Implementation (with BC structure)](https://github.com/titu1994/DenseNet) by Somshubra Majumdar.
-0. [Chainer Implementation](https://github.com/t-hanya/chainer-DenseNet) by Toshinori Hanya.
-0. [Chainer Implementation](https://github.com/yasunorikudo/chainer-DenseNet) by Yasunori Kudo.
+Our [[Caffe]](https://github.com/liuzhuang13/DenseNetCaffe), Our memory-efficient [[Caffe]](https://github.com/Tongcheng/DN_CaffeScript), Our memory-efficient [[PyTorch]](https://github.com/gpleiss/efficient_densenet_pytorch), 
+[[PyTorch]](https://github.com/andreasveit/densenet-pytorch) by Andreas Veit, [[PyTorch]](https://github.com/bamos/densenet.pytorch) by Brandon Amos, 
+[[MXNet]](https://github.com/Nicatio/Densenet/tree/master/mxnet) by Nicatio, 
+[[MXNet]](https://github.com/bruinxiong/densenet.mxnet) by Xiong Lin, 
+[[MXNet]](https://github.com/miraclewkf/DenseNet) by miraclewkf,
+[[Tensorflow]](https://github.com/YixuanLi/densenet-tensorflow) by Yixuan Li, 
+[[Tensorflow]](https://github.com/LaurentMazare/deep-models/tree/master/densenet) by Laurent Mazare,
+[[Tensorflow]](https://github.com/ikhlestov/vision_networks) by Illarion Khlestov, 
+[[Lasagne]](https://github.com/Lasagne/Recipes/tree/master/papers/densenet) by Jan Schlüter, 
+[[Keras]](https://github.com/tdeboissiere/DeepLearningImplementations/tree/master/DenseNet) by tdeboissiere,  
+[[Keras]](https://github.com/robertomest/convnet-study) by Roberto de Moura Estevão Filho, 
+[[Keras]](https://github.com/titu1994/DenseNet) by Somshubra Majumdar, 
+[[Chainer]](https://github.com/t-hanya/chainer-DenseNet) by Toshinori Hanya, 
+[[Chainer]](https://github.com/yasunorikudo/chainer-DenseNet) by Yasunori Kudo, 
+[[Torch 3D-DenseNet]](https://github.com/barrykui/3ddensenet.torch) by Barry Kui,
+[[Keras]](https://github.com/cmasch/densenet) by Christopher Masch.
 
-Note that we didn't list all implementations available on GitHub, and didn't label all implementations which support BC structures. 
 
-## Projects build on DenseNets
-0. [Multi-Scale Dense Convolutional Networks for Efficient Prediction](https://github.com/gaohuang/MSDNet) by Gao Huang.
-0. [Fully Convolutional DenseNets for segmentation](https://github.com/SimJeg/FC-DenseNet) by Simon Jegou.
+Note that we only listed some early implementations here. If you would like to add yours, please submit a pull request.
+
+## Some Following up Projects
+0. [Multi-Scale Dense Convolutional Networks for Efficient Prediction](https://github.com/gaohuang/MSDNet)
+0. [DSOD: Learning Deeply Supervised Object Detectors from Scratch](https://github.com/szq0214/DSOD)
+0. [CondenseNet: An Efficient DenseNet using Learned Group Convolutions](https://github.com/ShichenLiu/CondenseNet)
+0. [Fully Convolutional DenseNets for Semantic Segmentation](https://github.com/SimJeg/FC-DenseNet)
+
+
 
 
 ## Contents
@@ -64,9 +73,8 @@ Figure 2: A deep DenseNet with three dense blocks.
 
 
 ## Usage 
-0. Install Torch ResNet (https://github.com/facebook/fb.resnet.torch) and required dependencies like Torch and cuDNN.
-1. Add the files **densenet.lua** and **DenseConnectLayer.lua** to the folder **models/**.
-2. Replace **opts.lua**, **train.lua** and **models/init.lua** in the original repo by the corresponding files in this repo.
+0. Install Torch and required dependencies like cuDNN. See the instructions [here](https://github.com/facebook/fb.resnet.torch/blob/master/INSTALL.md) for a step-by-step guide.
+1. Clone this repo: ```git clone https://github.com/liuzhuang13/DenseNet.git```
 
 As an example, the following command trains a DenseNet-BC with depth L=100 and growth rate k=12 on CIFAR-10:
 ```
@@ -102,6 +110,8 @@ DenseNet-BC (L=190, k=40)|25.6M |- |**3.46** | -|**17.18**
 
 ## Results on ImageNet and Pretrained Models
 ### Torch
+
+#### Models in the original paper
 The Torch models are trained under the same setting as in [fb.resnet.torch](https://github.com/facebook/fb.resnet.torch). The error rates shown are 224x224 1-crop test errors.
 
 | Network       |  Top-1 error | Torch Model |
@@ -111,28 +121,29 @@ The Torch models are trained under the same setting as in [fb.resnet.torch](http
 | DenseNet-201 (k=32)  | 22.5     | [Download (161.8MB)](https://drive.google.com/open?id=0B8ReS-sYUS-HaDdpNmlWRjJkd3c)       |
 | DenseNet-161 (k=48)  | 22.2     | [Download (230.8MB)](https://drive.google.com/open?id=0B8ReS-sYUS-HVXp2RExSTmMzZVU)
 
-### Caffe
-For ImageNet pretrained Caffe models, please see https://github.com/shicai/DenseNet-Caffe. Also, we would like to thank @szq0214 for help on Caffe models.
+#### Models in the tech report
+More accurate models trained with the memory efficient implementation in the [technical report](https://arxiv.org/pdf/1707.06990.pdf). 
 
+
+| Network       |  Top-1 error | Torch Model |
+| ------------- | ----------- | ------------ |
+| DenseNet-264 (k=32)  |  22.1 |    [Download (256MB)](https://drive.google.com/file/d/0By1NwtA2JPGzdVRqOEotMUZrbTA/view?usp=sharing)
+| DenseNet-232 (k=48)  | 21.2 | [Download (426MB)](https://drive.google.com/open?id=0By1NwtA2JPGzdkRDaWQ5M3VHTDg)
+| DenseNet-cosine-264 (k=32) | 21.6  |  [Download (256MB)](https://drive.google.com/file/d/0By1NwtA2JPGzRDhxWGo2a3pOTjA/view?usp=sharing)
+| DenseNet-cosine-264 (k=48) | 20.4   | [Download (557MB)](https://drive.google.com/file/d/0By1NwtA2JPGzcnFDSE1HQVh4c0k/view?usp=sharing)
+
+
+### Caffe
+https://github.com/shicai/DenseNet-Caffe.
 
 ### PyTorch
-In PyTorch, ImageNet pretrained models can be directly loaded by 
-
-```
-import torchvision.models as models
-densenet = models.densenet161(pretrained=True)
-```
-
-For ImageNet training, customized models can be constructed by simply calling
-
-```
-DenseNet(growth_rate=32, block_config=(6, 12, 24, 16), num_init_features=64, bn_size=4, drop_rate=0, num_classes=1000)
-```
-
-See more details at [PyTorch documentation on models](http://pytorch.org/docs/torchvision/models.html?highlight=densenet) and the [code for DenseNet](https://github.com/pytorch/vision/blob/master/torchvision/models/densenet.py). We would like to thank @gpleiss for this nice work in PyTorch.
+[PyTorch documentation on models](http://pytorch.org/docs/torchvision/models.html?highlight=densenet). We would like to thank @gpleiss for this nice work in PyTorch.
 
 ### Keras, Tensorflow and Theano
-Please see https://github.com/flyyufelix/DenseNet-Keras.
+https://github.com/flyyufelix/DenseNet-Keras.
+
+### MXNet
+https://github.com/miraclewkf/DenseNet.
 
 
 ## Wide-DenseNet for better Time/Accuracy and Memory/Accuracy Tradeoff
@@ -159,6 +170,9 @@ Thus, for practical use, we suggest picking one model from those Wide-DenseNet-B
 
 
 ## Updates
+**08/23/2017:**
+
+1. Add supporting code, so one can simply *git clone* and run.
 
 **06/06/2017:**
 
